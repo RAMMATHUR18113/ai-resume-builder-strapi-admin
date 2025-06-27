@@ -15,14 +15,13 @@
       "type": "string",
       "required": true
     },
-    "resumeid": {
-      "type": "string"
-    },
     "userEmail": {
-      "type": "email"
+      "type": "email",
+      "required": false
     },
     "userName": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "firstName": {
       "type": "string"
@@ -59,6 +58,9 @@
       "type": "component",
       "component": "skills.skills",
       "repeatable": true
+    },
+    "resumeId": {
+      "type": "string"
     }
   }
 }

@@ -439,7 +439,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     phone: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    resumeid: Schema.Attribute.String;
+    resumeId: Schema.Attribute.String;
     Skills: Schema.Attribute.Component<'skills.skills', true>;
     summery: Schema.Attribute.Text;
     title: Schema.Attribute.String & Schema.Attribute.Required;
